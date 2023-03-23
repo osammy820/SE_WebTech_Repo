@@ -1,0 +1,16 @@
+table, td, th, col{
+    width: 70%; 
+    height: 40%;
+	border: 1px solid ;
+	border-collapse: collapse;
+	background-color:#f2f2f2;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ScreenShoot{
+	text-align: center;
+	text-decoration: none;
+}
+
+
