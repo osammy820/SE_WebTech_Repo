@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        table{
+            width: 40;
+            height: 70;
+            border-collapse: collapse;
+            text-align: center;
+            
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        thead{
+            border-bottom: 3px solid;
+        }
+
+        /* .lunch {
+            display: flex;
+            flex-direction: column;
+        } */
+
+        .time-box {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <h2>TIME TABLE</h2>
+    <table border="3">
+        <thead>
+            <tr>
+            
+                <th>Day/Period</th>
+                <th><div class="time-box">
+                    <div class="romain-numeral">I</div> <div class="time">9:30-10:20</div>
+                </div> </th>
+                <th><div class="romain-numeral">II</div> <div class="time">10:20-11:10</div>
+                     </th>
+                <th>  <div class="romain-numeral">III</div> <div class="time">11:10-12:00</div></th>
+                <th> 12:00-12:40 </th>
+                <th>  <div class="romain-numeral">IV</div> <div class="time">12:40-1:30</div></th>
+                <th>  <div class="romain-numeral">V</div> <div class="time">1:30-2:20</div></th>
+                <th><div class="romain-numeral">VI</div> <div class="time">2:20-3:10</div></th>
+                <th><div class="romain-numeral">VII</div> <div class="time">3:10-4:00</div></th>
+
+         </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>Eng</td>
+                <td>Math</td>
+                <td>Che</td>
+                <td rowspan="6"> <div  class="lunch"> <div>
+                    L
+                </div> <div>U</div> <div>N</div> <div>C</div> <div>H</div>
+            </div> </td>
+                <td colspan="3"></td>
+                <td>Phy</td>
+            </tr>
+
+            <tr>
+                <td>Tuesday</td>
+                <td colspan="3">LAB</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td>Mat</td>
+                <td>SPORT</td>
+            </tr>
+
+            <tr>
+                <td>Wednesday</td>
+                
+                <td>Mat</td>
+                <td>Phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td colspan="3">LIBRARY</td>
+            </tr>
+
+            <tr>
+                <td>Thursday</td>
+                
+                <td>Phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td colspan="3">LAB</td>
+                <td>Mat</td>
+                
+            </tr>
+
+            <tr>
+                <td>Friday</td>
+                <td colspan="3">LAB</td>
+                <td>Mat</td>
+                <td>Che</td>
+                <td>Eng</td>
+                <td>Phy</td>
+                
+            </tr>
+
+            <tr>
+                <td>Saturday</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td>Mat</td>
+                <td colspan="3">SERMINAR</td>
+                <td>SPORTS</td>
+                
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
