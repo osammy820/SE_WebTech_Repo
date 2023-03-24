@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    width: 70%;
+    height: 40%;
+    margin: 0px auto;
+    margin-top: 10%;
+}
+
+.headings{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.text{
+    font-size: 25px;
+    font-weight: 400;
+    font-size: bold;
+}
