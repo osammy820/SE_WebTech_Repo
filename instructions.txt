@@ -31,7 +31,7 @@ Activity 2 (Should be Done individually)
 5.Identify your class and Group from the Appropriate Directory(Folder) ex. Regular/300 A/Group 1
 6.In the file with title "group_title.html", update the source code to include your Index Number,Full Name, Email and Phone Number.
 7.Create a new feature branch with name Category_IndexNumber_Class_Group_Name
-    use this command: git branch -b Regular_51000000000_300A_Group_1
+use this command: git branch -b Regular_51000000000_300A_Group_1
 8.Commit your changes and push the new feature branch to your forked repository on GitHub.
 9.Create a pull request to submit your changes for review.
 
