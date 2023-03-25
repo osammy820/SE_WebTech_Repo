@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my form </title>
+    <style>
+        .border{
+            border: 3px solid blue;
+            height: 40%;
+            width: 70%;
+            padding: 1.5rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        h2{
+            color: black;
+        }
+        h1{
+            color: blue;
+        }
+        label{
+            color: blue;
+            font-weight: bold;
+            width: 130px;
+
+        }
+        .flex{
+          display: flex;
+          align-items: center;
+        }
+
+        .v-flex{
+            display: flex;
+            flex-direction: column;
+        }
+
+        aside{
+            margin: 0.5rem 0 1rem 0;
+        }
+
+        .submit-but{
+            margin: 0 0.7rem 0 7.7rem;
+           
+        }
+
+        .submit-but button{
+            margin: 0 0.7rem 0 0.7rem;
+            background-color: #a9a9a9af;
+            box-shadow: 0.1rem 0.2rem 0.2rem blue;
+            font: weight 15px;
+            width: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="border">
+<form>
+    <h1>Please complete the survey</h1>
+    <h2>Contact Information</h2>
+
+    <div class="v-flex">
+    <aside class="flex">
+        <label for="email">Email address:</label>
+        <input type="email"><br>
+    </aside>
+    
+    
+    <aside class="flex">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname"><br>
+    </aside>  
+    
+
+    <aside class="flex">
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname"><br>
+    </aside>      
+    </div>
+
+    <h2>Geographic Information</h2>
+    <div class="v-flex">
+    <aside class="flex">
+        <label for="state">State:</label>
+        <input type="text" id="state" placeholder="Two characters"><br>  
+    </aside>
+    
+
+    <aside class="flex">
+        <label for="zcode">Zip Code:</label>
+        <input type="number" id="zcode" placeholder="Five digits"><br> 
+    </aside> 
+    </div> 
+
+    <h2>How did you hear about us?</h2>
+    <div class="v-flex">
+    <aside class="flex">
+        <label for="websearch">Web Search:</label>
+        <input type="checkbox" id="websearch"><br>
+    </aside> 
+    
+
+    <aside class="flex">
+        <label for="facebook">Facebook:</label>
+        <input type="checkbox" id="facebook"><br> 
+    </aside>
+    
+
+    <aside class="flex">
+        <label for="twitter">Twitter:</label>
+        <input type="checkbox" id="twitter"><br>
+    </aside> 
+    
+
+    <aside class="flex">
+        <label for="emessage">Email message:</label>
+        <input type="checkbox" id="emessage"><br>
+    </aside> 
+    </div>
+
+    <h2>Thank you for taking our survey!</h2>
+     
+    <div class="submit-but">
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    </div>
+</form>
+</div>
+
+
+<a href="/SE_WebTech_Repo/Regular/300 B/Group 3/screenshoot/Screenshot (3).png">Screenshoot</a>
+</body>
+</html>
