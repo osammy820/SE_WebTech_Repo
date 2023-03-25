@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 70%;
+            height: 40vh;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10%;
+        }
+
+        tr, td, th{
+            border: 1px solid black;
+        }
+
+        .rightAlign{
+            text-align: right;
+        }
+        caption, th, .region{
+            color: rgb(13, 17, 238);
+        }
+        caption{
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+    <table >
+        <caption>Energy Expenditures for Each Region <br> (millions of dollars)</caption>
+        <tr>
+            <td colspan="2" rowspan="4"></td>
+            <th colspan="2">Type</th>
+        </tr>
+
+        <tr>
+            <th>Residential Customers</th>
+            <th>Business Customers</th>
+        </tr>
+
+        <tr>
+            <th>Expenditures</th>
+            <th>Expenditures</th>
+        </tr>
+
+        <tr>
+            <th>sum</th>
+            <th>sum</th>
+        </tr>
+
+        <tr>
+            <th>Region</th>
+            <th>Division</th>
+            <td rowspan="2" class="rightAlign">&dollar; 7,477</td>
+            <td rowspan="2" class="rightAlign">&dollar; 5, 129</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2" class="region">Northeast</td>
+            <td class="region">New England</td>
+        </tr>
+
+        <tr>
+            <td class="region">Middle Atlantic</td>
+            <td class="rightAlign">&dollar; 19,379</td>
+            <td class="rightAlign">&dollar; 15,078</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2" class="region">West</td>
+            <td class="region">Mountain</td>
+            <td class="rightAlign">&dollar; 5,476</td>
+            <td class="rightAlign">&dollar; 4,729</td>
+        </tr>
+
+        <tr>
+            <td class="region">Pacific</td>
+            <td class="rightAlign">&dollar; 13,959</td>
+            <td class="rightAlign">&dollar; 12,619</td>
+        </tr>
+    </table>
+
+    <br><br>
+    <a href="/Screenshoot/group_10_screenshot.png" style="font-size: larger">Screenshoot</a>
+</html>
