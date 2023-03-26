@@ -34,6 +34,5 @@ Activity 2 (Should be Done individually)
     use this command: git branch -b Regular_51000000000_300A_Group_1
 8.Commit your changes and push the new feature branch to your forked repository on GitHub.
 9.Create a pull request to submit your changes for review.
-
 Thank You,
 Wishing you the best of Luck
