@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Centered Table</title>
+    <style>
+      table {
+        width: 70%;
+        height: 40%;
+        margin: auto;
+        border-collapse: collapse;
+      }
+      th, td {
+        padding: 10px;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Header Column 1</th>
+        <th>Header Column 2</th>
+        <th>Header Column 3</th>
+        <th>Header Column 4</th>
+      </tr>
+      <tr>
+        <td>Row 2-item 1</td>
+        <td>Row 2-item 2</td>
+        <td rowspan="4">
+          <table>
+            <tr>
+              <th>Row 1 Header</th>
+              <th>item</th>
+            </tr>
+            <tr>
+              <th>Row 2 Header</th>
+              <td>item</td>
+            </tr>
+            <tr>
+              <th>Row 2 Header</th>
+              <td>item</td>
+            </tr>
+            <tr>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <th>Row 3 Header</th>
+              <td> </td>
+            </tr>
+            <tr>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <th>Row 4 Header</th>
+              <td>Row 4-item 3</td>
+            </tr>
+          </table>
+        </td>
+        <td>Row 2-item 4<br/>A second line</td>
+      </tr>
+      <tr>
+        <td>Row 3-item 1</td>
+        <td>Row 3-item 2</td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td>Row 4-item 1</td>
+        <td>Row 4-item 2</td>
+        <td> </td>
+      </tr>
+      <tr>
+        <td> </td>
+        <td> </td>
+        <td>Row 3-Item 3</td>
+        <td> </td>
+      </tr>
+    </table>
+    <a href="ScreenShot">ScreenShot</a>
+  </body>
+</html>
