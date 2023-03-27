@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .table {
+        width: 70vw;
+        height: 70vh;
+        margin: auto;
+        border-style: solid;
+        border: 2 black;
+        position: relative;
+      }
+      table{
+        margin: auto;
+      }
+      /* .tinner {
+        width: 80%;
+        height: 60%;
+
+        margin: auto;
+        border-style: solid;
+        border: 1;
+        border-color: grey;
+        position: relative;
+      } */
+      h2 {
+        text-align: center;
+        color: blue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      h3 {
+        text-align: center;
+        color: grey;
+        font-family: blue;
+      }
+     th,td{
+        color: blue;
+        padding: 1 2px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-color: gray;
+     }
+     .col-4{
+         background-color: grey;
+     }
+    </style>
+  </head>
+  <body>
+    <div class="table">
+      <h2>Energy Expenditure of Each Region</h2>
+      <h2>(Millions of Dollars)</h2>
+      <table border="1">
+        <tr class="col-4">
+         
+          <td rowspan="4"  colspan="2" class="col-4">
+           <h3>Hello this is table</h3>
+          </td>
+          <th colspan="2">Type</th>
+          
+        </tr>
+        <tr class="col-4">
+          <td>Residential customers</td>
+          <td>Business customers</td>
+        </tr>
+        <tr class="col-4">
+          <td>Expenditures</td>
+          <td>Expenditures</td>
+        </tr>
+        <tr class="col-4">
+          <td>Sum</td>
+          <td>Sum</td>
+        </tr>
+        <tr>
+            <td class="col-4">Region</td>
+            <td class="col-4">Division</td>
+            <td rowspan="2" style="color: black; text-align: right;">$7,477</td>
+            <td rowspan="2" style="color: black; text-align: right;">$5,129</td>
+        </tr>
+        
+        <tr>
+            <td rowspan="2" class="col-4">Northeast</td>
+            <td class="col-4">New England</td>
+            
+        </tr>
+        <tr><td class="col-4">Middle Atlantic</td>
+            <td style="color: black ; text-align: right;">$19,379</td>
+            <td style="color: black; text-align: right;">$15,078</td></tr>
+        <tr>
+            <td rowspan="2" class="col-4">West</td>
+            <td class="col-4">Mountain</td>
+            <td style="color: black; text-align: right;">$5,476</td>
+            <td style="color: black; text-align: right;">$13,959</td></tr>
+            
+        </tr>
+        <tr><td class="col-4">Pacific</td>
+            <td style="color: black; text-align: right;">$13,959</td>
+            <td style="color: black; text-align: right">$12,619</td></tr>
+           
+      </table>
+      
+      
+      </div>
+    </div>
+  </body>
+</html>
+
