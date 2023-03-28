@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        body{
+            height: 100vh;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder;
+        }
+        .main{
+            height: 90%;
+            width: 55%;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center
+            
+        }
+        .inner{
+            height: 95%;
+            width: 98%;
+            background-color: transparent;
+            border: 5px solid blue;
+            display: flex;
+            flex-direction: column;
+        }
+        form{
+            padding-left: 20px;
+        }
+        input:hover{
+            border: 3px solid blue;
+        }
+        label{
+            width: 200px;
+            color: blue;
+            display: inline-block;
+            margin: 4px 8px;
+        }
+        .btn{
+            margin: 10px 50px;
+            width: 100px;
+            box-shadow: 2px 2px 2px blue;
+        }
+        .heading{
+            font-size: 15pt;
+            color: blue;
+        }
+        .head{
+
+        }
+    </style>
+<body>
+    <div class="main">
+        <div class="inner">
+            <p class="heading">Please complete our survey</p>
+            <form action="">
+            <p class="head">Contact information</p> 
+                    <label for="">Email address:</label> 
+                    <input type="text"> <br>
+                    <label for="">First name:</label>
+                    <input type="text">     <br>
+                    <label for="">Last name:</label>
+                    <input type="text"> <br>
+        
+            <p class="head">Geographical information</p> 
+                    <label for="">State:</label>
+                    <input type="text" placeholder="Two characters"> <br>
+                    <label for="">Zip code:</label>
+                    <input type="text" placeholder="Five digits"> <br>
+
+            <p class="head">How did you hear about us?</p> 
+                <label for="">Web Search:</label> <input type="checkbox">  <br>
+                <label for="">Facebook:</label> <input type="checkbox"> <br>
+                <label for="">Twitter :</label> <input type="checkbox"><br>
+                <label for="">Email message:</label> <input type="checkbox"> <br>
+
+                <p class="head">Thank you for taking our survey!</p> 
+                <button class="btn">Submit</button>
+                <button class="btn">Reset</button>
+                
+            </form>
+
+            <a href="./ScreenShoot/group3.PNG">ScreenShoot</a>
+        </div>
+    </div>
+</body>
+</html>
