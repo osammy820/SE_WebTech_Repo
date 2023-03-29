@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>  
+       <style>
+        fieldset {
+            height: 40%;
+            width: 70%;
+            color: blue;
+            padding: 50px;
+            margin: auto;
+            border-color: blue;
+       
+            
+        }
+    .form-group {
+        display: block;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        text-align: left;
+        
+    }
+    label{
+        width: 250px;
+        display: inline-block;
+        
+    }
+    
+    input [type="email"],
+    input [type="firstname"],
+    input [type="lname"] {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        box-sizing: border-box;
+        text-indent: 0rem;
+    }
+    button {
+        display: inline;
+        width: 100px;
+        margin-inline: 60px;
+        border-bottom: blue;
+        border-style: solid; 
+        text-align: center; 
+          
+    }
+    input [type="checkbox"],
+    input [type="checkbox"],
+    input [type="checkbox"],
+    input [type="checkbox"] {
+display: none;
+
+    }
+
+
+h3 { color: black;}
+
+strong{ color: rgb(252, 2, 52); text-align: right;}
+a:hover {color:#FF00FF;}
+ 
+        </style>
+
+
+
+    </head>
+    <body>
+            <fieldset>
+                <a href="../ScreenShoot/ScreenShoot.html"> <strong> <h2>ScreenShoot</h2></strong> </a>
+
+                 <h2 > Please complete our survey </h2>
+                 
+                 <h3> Contact information </h3>
+                    <div class="form-group">
+                        <label for="emailmessage"><b> Email message:</b> </label>
+                        <input type="email" id="email" name="email" size="50">
+                        </div>
+                        <div class="form-group">
+                            <label for="firstname"> <b>First Name:</b> </label>
+                            <input type="firstname" id="name" name="name" size="50">
+                            </div>
+                            <div class="form-group">
+                                <label for="lastname"> <b>Last Name:</b> </label>
+                                <input type="lname" id="lname" name="lname" size="50">
+                                </div>
+                <h3>Geographic information</h3>
+                <div class="form-group">
+                    <label for="state"> <b>State:</b> </label>
+                    <input type="text" id="state" name="state" placeholder="Two characters" maxlength="2" size="50">
+                    </div>
+                    <div class="form-group">
+                        <label for="zipcode"> <b>Zip Code:</b> </label>
+                <input type="text" id="zipcode" name="zipcode" placeholder="Five digits" maxlength="5" size="50">
+                        </div>
+
+                        <h3>How did you hear about us?</h3>
+                        <div class="form-group">
+                            <label for="websearch"><b>Web Search:</b>  </label>
+                    <input type="checkbox" id="websearch" name="websearch" size="50">
+                            </div>
+                            <div class="form-group">
+                                <label for="facebook"> <b>Facebook:</b> </label>
+                        <input type="checkbox" id="facebook" name="facebook" >
+                                </div>
+                                <div class="form-group">
+                                    <label for="twitter"> <b>Twitter:</b> </label>
+                            <input type="checkbox" id="twitter" name="twitter">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="emailmessage"><b> Email Message:</b>  </label>
+                                        
+                                <input type="checkbox" id="emailmessage" name="emailmessage">
+                                        </div>
+
+
+                   <h3>Thank you for taking our survey!</h3>
+
+                   <button> Submit </button>
+
+                   <button> Reset </button>
+            </fieldset>
+    
+    </body>
+    </html>
