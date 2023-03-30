@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Group 9</title>
+	<style>
+		table {
+			width: 70%;
+			height: 40%;
+			margin: 0 auto;
+			border-collapse: collapse;
+			width: 600px;
+			background-color: lightcyan;
+		}
+
+		table td {
+			border: 1px solid black;
+			padding: 10px;
+			text-align: leftp;
+		}
+
+		.third-row {
+			grid-column: span 4;
+		}
+
+		.fifth-row {
+			grid-column: span 3;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<tr style="height: 60px;">
+			<td colspan="3">Invoice #9876543210</td>
+			<td>15 September 2020</td>
+		</tr>
+		<tr style="height: 150px;">
+			<td colspan="2">Pay to:<br> Acme Billing Co.<br> 123 Main St.<br> Cityville,NA 12345</td>
+			<td colspan="2">Customer:<br> John Smith<br> 321 Willow Way<br> Southeast Northwestershire, MA 54321</td>
+		</tr>
+		<tr style="height: 100px;" class="third-row">
+			<td>Name/Description<br> Paperelips<br> Staples(box)</td>
+			<td>Qty.<br> 2000<br> 200</td>
+			<td>@<br> 0.02<br> 2.00</td>
+			<td>Cost<br> 20.00<br> 200.00 </td>
+		</tr>
+		<tr style="height: 60px;">
+			<td colspan="3">Subtotal</td>
+			<td>220.00</td>
+		</tr>
+		<tr style="height: 30px;" class="fifth-row">
+			<td colspan="2">Tax</td>
+			<td>9%</td>
+			<td>19.80</td>
+		</tr>
+		<tr style="height: 60px;">
+			<td colspan="3">Grand Total</td>
+			<td>239.80</td>
+		</tr>
+	</table>
+	<a href="Screenshot.html">
+		Screenshoot
+	</a>
+</body>
+</html>
