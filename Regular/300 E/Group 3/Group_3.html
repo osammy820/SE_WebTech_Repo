@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Information</title>
+
+	<style>
+		.container{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 40%;
+		}
+		table{
+			width: 70%;
+			height: 40%;
+			
+			
+		}
+		h2, h3{
+			
+			text-align: center;
+		}
+
+		td, tr{
+			width: 5%;
+			height: 10%;
+			text-align: center;
+		}
+		
+	</style>
+</head>
+<body>
+	
+	<div class="container">
+	<table>
+		<tr><td><h2><a href="Screenshoot/Screenshot.png" title="Screenshoot">Screenshot</a></h2></td></tr>
+		<th><h2>Please complete our survey</h2></th>
+		<tr><td><h3>Contact Information</h3></td></tr>
+		<tr>
+
+			<td><label for="email">Email Address:</label></td>
+			<td><input type="email" id="email" name="email" required></td>
+		</tr>
+		<tr>
+			<td><label for="fname">First Name:</label></td>
+			<td><input type="text" id="fname" name="fname" required></td>
+		</tr>
+		<tr>
+			<td><label for="lname">Last Name:</label></td>
+			<td><input type="text" id="lname" name="lname" required></td>
+		</tr>
+		<tr><td><h3>Geographical Information</h3></td></tr>
+		<tr>
+			<td><label for="state">State:</label></td>
+			<td><input type="text" id="state" name="state" required placeholder="Two characters"></td>
+		</tr>
+		<tr>
+			<td><label for="zipcode">Zip Code:</label> <br></td> 
+			<td><input type="number" id="zipcode" name="zipcode" required placeholder="Two digits"></td> 
+			<tr>
+				<td><h3>How did you hear about us?</h3></td>
+			</tr>
+			
+		</tr>
+		<tr>
+			
+			<td><label for="source"></label></td>
+			
+
+				<tr><td><label for="websearch">Web Search</label>
+					<input type="checkbox" id="websearch" name="source" value="websearch"></td></tr>
+				<tr>
+					<td>
+						<label for="facebook">Facebook</label>
+				<input type="checkbox" id="facebook" name="source" value="facebook">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="twitter">Twitter</label>
+				<input type="checkbox" id="twitter" name="source" value="twitter">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="emailmsg">Email Message</label>
+				<input type="checkbox" id="emailmsg" name="source" value="emailmsg">
+				
+					</td>
+				</tr>
+				<tr><td><h3>Thank you For taking our survey!</h3></td></tr>
+				<tr>
+					<th>
+						<td>
+							<input type="submit" value="Submit">
+	<input type="submit" value="Reset">
+						</td>
+					</th>
+				</tr>
+	
+			
+		</tr>
+	</table>
+	</div>
+</body>
+</html>
