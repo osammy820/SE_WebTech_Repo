@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    table {
+        width: 70%;
+        height: 40%;
+        border-collapse: collapse;
+        border: 2px solid #000;
+    }
+    th {
+        background-color: #505050;
+        color: #fff;
+    }
+
+    .blue {
+        background-color: #1577d3;
+    }
+
+    .grey {
+        background-color: #9b9b9b;
+    }
+
+    tr {
+        border: none !important;
+    }
+</style>
+<body>
+    <table  >
+        <tr  >
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </tr>
+        <tr class="blue">
+            <td>Row 1, Column 1</td>
+            <td>Row 1, Column 2</td>
+            <td>Row 1, Column 3</td>
+        </tr>
+        <tr class="grey" >
+            <td colspan="2" style="text-align: center;" >Row 2, Column 1-2</td>
+            
+            <td>Row 2, Column 3</td>
+        </tr>
+        <tr class="blue" >
+            <td>Row 3, Column 1</td>
+            <td>Row 3, Column 2</td>
+            <td>Row 3, Column 3</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="blue"  style="text-align: center;">Table Footer</td>
+        </tr>
+    </table>
+</body>
+</html>
