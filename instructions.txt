@@ -23,8 +23,8 @@ Activity 1 (Should be Done in Groups)
 12.Create a pull request to submit your changes for review and assessment.
 
 
-Activity 2 (Should be Done individually)
-1.Create a github account (Group Leaders Account should be used for this activity)
+Activity 2 (Should be Done individually )
+1.Create a github account
 2.Search for a repository with the name SE_Webtech
 3.Fork the repository to the Group Leader's Github Account.
 4.Clone the forked repository to your local machine.
