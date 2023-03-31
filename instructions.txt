@@ -6,7 +6,6 @@ and the second activity should be done individually.
 
 Please make sure to follow every bit of instructions given carefully,
 Failure to follow the given instructions will be at your own detriment.
-
 Activity 1 (Should be Done in Groups)
 1.Create a github account (Group Leaders Account should be used for this activity)
 2.Search for a repository with the name SE_Webtech
