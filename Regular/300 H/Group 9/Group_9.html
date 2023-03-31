@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            width: 100%;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            font-size: 18pt;
+            font-weight: bolder;
+        }
+        .main{
+            height: 80%;
+            width: 50%;
+            background-color: whitesmoke;
+            border: 1px solid black;
+        }
+        .invoice{
+            height: 12%;
+            width: 100%;
+            background-color: transparent;
+            border-bottom: 1px solid black;
+            display: flex;
+        }
+        .num{
+            height: 100%;
+            width: 70%;
+            background-color: transparent;
+            border-right: 1px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .date{
+            height: 100%;
+            width: 30%;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .customer{
+            height: 30%;
+            width: 100%;
+            background-color: transparent;
+            display: flex;
+            font-size: 13pt;
+            font-weight: bold;
+            line-height: 30px;
+            border-bottom: 1px solid black;
+        }
+        .pay{
+            height: 100%;
+            width: 50%;
+            background-color: transparent;
+            border-right: 1px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            padding-left: 20px;
+        }
+        .info{
+            height: 100%;
+            width: 50%;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            padding-left: 20px;
+        }
+        .down{
+            height: 58%;
+            width: 100%;
+            background-color: transparent;
+            display: flex;
+        }
+        .left{
+            height: 100%;
+            width: 75%;
+            background-color: transparent;
+            display: flex;
+            flex-direction: column;
+            border-right: 1px solid black;
+        }
+        .description{
+            height: 40%;
+            width: 100%;
+            background-color: transparent;
+            display: flex;
+            font-size: 10pt;
+            line-height: 40px;
+            border-bottom: 1px solid black;
+        }
+        .name{
+            height: 100%;
+            width: 100%;
+            background-color: transparent;
+            border-right: 1px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            padding-left: 20px;
+        }
+        .qty{
+            height: 100%;
+            width: 100%;
+            background-color: transparent;
+            border-right: 1px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            padding-left: 20px;
+        }
+        .at{
+            height: 100%;
+            width: 100%;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            padding-left: 20px;
+        }
+        .subtotal{
+            height: 20%;
+            width: 100%;
+            background-color: transparent;
+            border-bottom: 1px solid black;
+            display: flex;
+        }
+        .subtotaltxt{
+            height: 100%;
+            width: 100%;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            padding-left: 20px;
+        }
+        .tax{
+            height: 20%;
+            width: 100%;
+            background-color: transparent;
+            border-bottom: 1px solid black;
+            display: flex;
+        }
+        .taxtxt{
+            height: 100%;
+            width: 70%;
+            background-color: transparent;
+            border-right: 1px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            padding-left: 20px;
+        }
+        .taxpercentage{
+            height: 100%;
+            width: 30%;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            padding-left: 20px;
+        }
+        .grandtotal{
+            height: 20%;
+            width: 100%;
+            background-color: transparent;
+            display: flex;
+        }
+        .grandtotaltxt{
+            height: 100%;
+            width: 100%;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            padding-left: 20px;
+        }
+        .right{
+            height: 100%;
+            width: 22%;
+            background-color: transparent;
+            display: flex;
+            flex-direction: column;
+        }
+        .cost{
+            height: 40%;
+            width: 100%;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            padding-left: 20px;
+            font-size: 10pt;
+            border-bottom: 1px solid black;
+            line-height: 40px;
+        }
+        .subtotalamt{
+            height: 20%;
+            width: 100%;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            padding-left: 20px;
+            border-bottom: 1px solid black;
+        }
+        .taxamt{
+            height: 20%;
+            width: 100%;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            padding-left: 20px;
+            border-bottom: 1px solid black;
+        }
+        .grandtotalamt{
+            height: 20%;
+            width: 100%;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            padding-left: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="invoice">
+            <div class="num">Invoice #9876543210</div>
+            <div class="date">15 September 2020</div>
+        </div>
+        <div class="customer">
+            <div class="pay">
+                Pay to: <br> Acme Billing Co. <br>
+                123 Main St. <br> Cityville, NA 12345
+            </div>
+            <div class="info">
+                Customer: <br> John Smith <br>
+                321 Willow Way <br> Southeast Northwestershire, MA 54321
+            </div>
+        </div>
+        <div class="down">
+        <div class="left">
+            <div class="description">
+                <div class="name"> Name/Description <br> Paperclips <br> Staples (box) </div>
+                <div class="qty"> Qty. <br> 2000 <br> 200 </div>
+                <div class="at"> @ <br> 0.02 <br> 2.00 </div>
+                
+            </div>
+            <div class="subtotal">
+                <div class="subtotaltxt">Subtotal</div>
+                
+            </div>
+            <div class="tax">
+                <div class="taxtxt">Tax</div>
+                <div class="taxpercentage">9%</div>
+            </div>
+            <div class="grandtotal">
+                <div class="grandtotaltxt">Grand Total</div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="cost"> Cost <br> 20.00 <br> 200.00 </div>
+            <div class="subtotalamt">220.00</div>
+            <div class="taxamt">19.80</div>
+            <div class="grandtotalamt">239.80</div>
+        </div>
+    </div>
+    </div>
+    <a href="ScreenShot.html" target="_blank">ScreenShot</a> 
+</body>
+</html>
