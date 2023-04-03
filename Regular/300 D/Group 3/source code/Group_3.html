@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ite_d_group_3</title>
+	<style>
+.button {
+   padding: 15px 30px;
+   margin: 8px 4px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  font-weight: bolder;
+  background-color: grey;
+  border: none;
+  box-shadow:   3px 3px 3px blue;
+  width: 130px;
+ 
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
+	</head>
+<body>
+
+	<form name="survey"; method="post">
+		<table  align="center"  style="border:3px double ;padding: 3%; height: 40%; width: 70%; border-color: blue;">
+			<td colspan="2"><h1 style="font-size: 50px; border-collapse: collapse; color: blue;">Please Complete our survey</h1></td>
+			<tr>
+				<td colspan="2"><h2>Contact information</h2></td>
+			</tr>
+			<tr >
+				<td width="24%"><label style="color: blue; font-size: 24px; font-weight: bolder;">Email address:</label></td>
+				<td ><input type="text" name="Email";id="email"; style=" border: 3px solid #ccc;  padding: 5px 20px; box-sizing: border-box; margin: 8px 0; border-color:gray; width:45%"></td>
+			</tr>
+			<tr>
+				<td width="24%"><label for="firstname" style="color: blue; font-size: 24px; font-weight: bolder;">First name:</label></td>
+				<td><input type="text" name="firstname" style=" border: 3px solid #ccc;  padding: 5px 20px; box-sizing: border-box; margin: 8px 0; border-color:gray; width:45%"></td>
+			</tr>
+			<tr>
+				<td width="24%"><label for="lastname" style="color: blue; font-size: 24px; font-weight: bolder;">Last name:</label></td>
+				<td><input type="text" name="lastname" style=" border: 3px solid #ccc;  padding: 5px 20px; box-sizing: border-box; margin: 8px 0; border-color:gray; width:45%"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><h2>Geographic information</h2></td>
+			</tr>
+			<tr>
+				<td width="24%"><label style="color: blue; font-size: 24px; font-weight: bolder;">Status:</label></td>
+				<td><input type="text" name="staus" placeholder="Two characters" style=" border: 3px solid #ccc;  padding: 5px 20px; box-sizing: border-box; margin: 8px 0; border-color:gray; width:45%"></td>
+			</tr>
+			<tr>
+				<td width="24%"><label style="color: blue; font-size: 24px; font-weight: bolder;">Zip code:</label></td>
+				<td><input type="number" name="zipcode" placeholder="Five digits" style=" border: 3px solid #ccc;  padding: 5px 20px; box-sizing: border-box; margin: 8px 0; border-color:gray; width:45%"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><h2>How did you hear about us?</h2></td>
+			</tr>
+			 <tr>
+				<td width="24%"><label style="color: blue; font-size: 24px; width: 20%; font-weight: bolder;" >Web Search:</label></td>
+				<td><input type="checkbox" name="faceBook" ></td>
+			</tr>
+			<tr>
+				<td width="24%"><label style="color: blue; font-size: 24px; width: 20%; font-weight: bolder;" >Facebook:</label></td>
+				<td><input type="checkbox" name="faceBook" ></td>
+			</tr>
+			<tr>
+				<td width="24%"><label style="color: blue; font-size: 24px; font-weight: bolder;">Twitter:</label></td>
+				<td><input type="checkbox" name="twitter"></td>
+			</tr>
+			<tr>
+				<td width="24%"><label style="color: blue; font-size: 24px; font-weight: bolder;">Email message:</label></td>
+				<td><input type="checkbox" name="emailMessage"></td>
+			</tr>
+			<tr >
+				<td colspan="2"><h2>Thank you for taking our survey!</h2></td>
+			</tr>
+			<tr>
+			    <td align="right"><button class="button">Submit</button></td>
+				<td align="left"><button class="button">Reset</button></td>
+</td>
+			</tr>
+	
+		</table>
+		
+	</form>
+</body>
+</html>
