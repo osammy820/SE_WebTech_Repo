@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 8px;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    margin-left: 15%;
+    width: 70%;
+    height: 40%;
+    justify-content: space-between;
+    border: 5px solid blue;
+    padding: 30px;
+}
+
+.wrapper label{
+    color: blue;
+    font-weight: 600;
+}
+
+.wrapper h2,h3{
+    margin-left: 8px;
+    font-weight: 600;
+}
+.wrapper h2{
+    margin-left: 8px;
+    font-weight: 600;
+    color: blue;
+}
+
+.wrapper button.submit{
+    margin-left: 150px;
+    font-weight: 600;
+    width: 120px;
+    box-shadow: 4px 4px 4px blue;
+}
+
+.wrapper button.reset{
+    margin-left: 30px;
+    font-weight: 600;
+    width: 120px;
+    box-shadow: 4px 4px 4px blue;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 10px #0084ff;
+}
+
+.web-input-box input{
+    margin-left: 25px;
+}
+
+.face-input-box input{
+    margin-left: 41px;
+}
+.twit-input-box input{
+    margin-left: 65px;
+}
+
+.mail-input-box input{
+    margin-left: 1px;
+}
+
+.zip-input-box input{
+    margin-left: 50px;
+    width: 27%;
+}
+
+.state-input-box input{
+    margin-left: 77px;
+    width: 27%;
+}
+
+.ln-input-box input{
+    margin-left: 40px;
+    width: 27%;
+}
+.fn-input-box input{
+    margin-left: 38px;
+    width: 27%;
+}
+
+.input-box input{
+    margin-left: 10px;
+    width: 27%;
+}
+
+
