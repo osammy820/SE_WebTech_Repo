@@ -18,7 +18,7 @@ Activity 1 (Should be Done in Groups)
 8.In your source code, add a link with title "ScreenShoot" which shows the screenshot image when clicked
 9.Save your source file as GROUP_NAME.html example Group_A.html inside the SourceCode directory
 10.Create a new feature branch with name Category_Class_Group_Name
-    use this command: git branch -b Regular_300A_Group_1
+use this command git branch -b Regular_300A_Group_1
 11.Commit your changes and push the new feature branch to your forked repository on GitHub.
 12.Create a pull request to submit your changes for review and assessment.
 
