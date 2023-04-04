@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Please complete our survey</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		h1 {
+			color: blue;
+		}
+		h2 {
+			color: black;
+		}
+		form {
+			border: 2px solid blue;
+			padding: 20px;
+			margin: 20px;
+			width: 600px;
+			display: flex;
+			flex-direction: column;
+		}
+		label {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			margin-bottom: 5px;
+			color: darkblue;
+		}
+		input[type="email"], input[type="text"] {
+			padding: 5px;
+			border: 1px solid black;
+			border-radius: 4px;
+			width: 100%;
+			margin-left: 10px;
+		}
+		
+		input[type="checkbox"] {
+			margin-right: 5px;
+			color: grey;
+			align-items: center;
+		}
+		.checkbox-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+
+.checkbox-container label {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin-left: -400px;
+  justify-self: center;
+ color: gray;
+}
+		.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.submit-button,
+.reset-button {
+  width: 100px;
+  height: 40px;
+  background-color: #f2f2f2;
+  color:gray;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 2px 5px blue;
+  
+}
+
+.reset-button {
+  margin-left: 10px; 
+}
+
+.submit-button:hover,
+.reset-button:hover {
+  background-color: darkgray;
+}
+
+
+		.thankyou {
+			color: green;
+			margin-top: 20px;
+		}
+		table {
+			margin-bottom: 20px;
+			width: 70%;
+			height: 40%;
+		}
+		td {
+			padding: 5px;
+		}
+		td.label-column {
+			text-align: right;
+			font-weight: bold;
+			color: blue;
+			padding-right: 10px;
+			width: 40%;
+		}
+		
+		td.input-column {
+			width: 1000%;
+		}
+	</style>
+</head>
+<body>
+	<a href="screenshoot.html" target="blank"> Click on the link to view our work</a>
+	<form>
+		<table>
+      <h1>Please complete our survey</h1>
+      <h3>Contact information</h3>
+			<tr>
+				<td class="label-column"><label for="email">Email Address:</label></td>
+				<td class="input-column"><input type="email" id="email" name="email" required></td>
+			</tr>
+			<tr>
+				<td class="label-column"><label for="fname">First Name:</label></td>
+				<td class="input-column"><input type="text" id="fname" name="fname" required></td>
+			</tr>
+			<tr>
+				<td class="label-column"><label for="lname">Last Name:</label></td>
+				<td class="input-column"><input type="text" id="lname" name="lname" required></td>
+			</tr>
+		</table>
+
+		<table>
+      <h3>Geographic information</h3>
+			<tr>
+						<td>
+							<label for="state">State:</label>
+						</td>
+						<td>
+							<input type="text" id="state" name="state" maxlength="2" placeholder="Two characters" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="zip">Zip Code:</label>
+						</td>
+						<td>
+							<input type="text" id="zip" name="zip" maxlength="5" placeholder="Five digits" required>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<h2>How did you hear about us?</h2>
+			<div class="checkbox-container">
+  <label for="web-search">Web Search:</label>
+  <input type="checkbox" id="web-search" name="web-search">
+  <label for="facebook">Facebook:</label>
+  <input type="checkbox" id="facebook" name="facebook">
+  <label for="twitter">Twitter:</label>
+  <input type="checkbox" id="twitter" name="twitter">
+  <label for="email-message">Email Message:</label>
+  <input type="checkbox" id="email-message" name="email-message">
+</div>
+			 <h3>Thank you for taking our survey!</h3>
+
+			<div class="button-container">
+  <button class="submit-button">Submit</button>
+  <button class="reset-button">Reset</button>
+</div>
+
+		</td>
+	</tr>
+	</form>
+</tbody>
+</body>
+</html>
