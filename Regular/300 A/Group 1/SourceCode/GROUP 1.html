@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GROUP 1</title>
+
+    <style>
+      table {
+        border-collapse: collapse; /* Merge borders between cells */
+        border: 2px solid black; /* Set border properties for the entire table */
+        margin: 0 auto; /* Center the table horizontally using auto margins */
+        width: 70%; /* Set proportional width of the table */
+        height: 40vh; /* Set proportional height of the table using viewport height */
+      }
+
+      td.center { /* Add a class to style centered cells */
+        text-align: center; /* Center cell content horizontally */
+      }
+
+      table th {
+        font-weight: bold; /* Use bold font weight for table header cells */
+        color: white; /* Set text color for table header cells */
+        font-size: 23px; /* Set font size for table header cells */
+        padding: 10px; /* Add padding to table header cells */
+      }
+
+      table td {
+        font-size: 20px; /* Set font size for table data cells */
+        font-weight: bold; /* Use bold font weight for table data cells */
+        padding: 5px; /* Add padding to table data cells */
+        text-indent: 15px; /* Add an indentation from the left edge of each cell */
+      }
+      
+    
+
+    </style>
+  </head>
+  <body>
+    <table>
+      <!-- Table Header Row -->
+      <tr style="background-color: #544C4A;">
+        <th>Column 1</th>
+        <th>Column 2</th>
+        <th>Column 3</th>
+      </tr> 
+
+      <!-- Table Data Rows -->
+      <tr style="background-color: #B3E5FC;">
+        <td>Row 1, Column 1</td>
+        <td>Row 1, Column 2</td>
+        <td>Row 1, Column 3</td>
+      </tr>
+      
+      <tr style="background-color: #D6CFC7;">
+          <!-- Merging Table Columns - Use "colspan" attribute to specify how many columns should be merged -->
+        <td colspan="2" class="center">Row 2, Columns 1-2</td> 
+        <td>Row 2, Column 3 </td>
+      </tr>
+      
+      <tr style="background-color: #B3E5FC;">
+        <td>Row 3, Column 1</td>
+        <td>Row 3, Column 2</td>
+        <td>Row 3, Column 3</td>
+      </tr>
+      
+      <!-- Table Footer Row -->
+      <tr style="background-color: #B3E5FC;">
+        <td></td>
+        <td class="center">Table Footer</td>
+        <td></td>
+      </tr>
+
+    </table>
+
+
+ 
+<a href="C:\Users\Nerd K. Asamoah\Desktop\New folder\SE_WebTech_Repo\Regular\300 A\Group 1\Screenshot.png">screenshot</a>
+  </body>
+</html>
