@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Group6</title>
+  </head>
+  <body>
+    <table border="2" class="main-table" align="center">
+      <thead class="thead">
+        <tr class="thead">
+          <td>Header Column 1</td>
+          <td>Header Column 2</td>
+          <td>Header Column 3</td>
+          <td>Header Column 4</td>
+        </tr>
+      </thead>
+      <tbody class="tbody">
+        <tr class="body-row1">
+          <td>Row 2 - Item 1</td>
+          <td>Row 2 - Item 2</td>
+          <td>
+            Row 2: Nested table 1
+            <table border="1">
+              <tbody>
+                <tr>
+                  <td>Row 1 Header</td>
+                  <td>item</td>
+                </tr>
+                <tr>
+                  <td>Row 2 Header</td>
+                  <td>item</td>
+                </tr>
+                <tr>
+                  <td>Row 2 Header</td>
+                  <td>item</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+          <td>Row 2 - Item 4 A second line</td>
+        </tr>
+        <tr class="body-row2">
+          <td>Row 3 - Item 1</td>
+          <td>Row 3 - Item 2</td>
+          <td></td>
+          <td>Row 3 - 3</td>
+        </tr>
+        <tr class="body-row3">
+          <td>Row 3 - Item 1</td>
+          <td>Row 4 - Item 1</td>
+          <td>Row 4 - Item 2</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <a href="../ScreenShoot/screenShoot.png" target="_blank" title="ScreenShoot"
+      >Click to show screenShoot image</a
+    >
+
+    <style>
+      body {
+        height: 100vh;
+        font-weight: bold;
+        display: flex;
+        align-content: center;
+        font-weight: bolder;
+      }
+      .main-table {
+        height: 40%;
+        width: 70%;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+      }
+      .thead {
+        font-family: "Times New Roman", Times, serif;
+        font-weight: bolder;
+        font-size: 25px;
+      }
+
+      .tbody {
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      td {
+        border: solid 2px;
+      }
+      tr:last-of-type td:last-of-type {
+        border: none;
+      }
+    </style>
+  </body>
+</html>
