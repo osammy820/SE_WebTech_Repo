@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Table</title>
+    <style>
+    .row_column{
+        border-collapse: collapse;
+        width: 70%;
+        height: 40%;
+        background-color: rgb(149, 243, 231);
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+   .tbody1{
+    font-size: 15px;
+    margin-left: 20px;
+    margin: 30px;
+    padding: 30px;
+    line-height: 30px;
+    
+   }
+   .tbody2{
+    font-size: 15px;
+    margin: 10px 20px 10 30;
+    padding: 10x 10px 20px 30px;
+    line-height: 30px;
+
+   }
+   .subt{
+    padding: 5px 15px 5px 15px;
+   }
+   .sub{
+    margin: 5px;
+    padding: 10px 20px 5px 15px;
+   }
+   .foot{
+    margin: 2px;
+    padding: 10px 20px 3px 15px;
+   }
+    </style>
+</head>
+<body>
+    <a href="screenshort.html"> Screen Short</a>
+ <table class="row_column" border="1" >
+<thead>
+    <tr>
+        <td colspan="3"><h2>Invoice #9876543210</h2></td>
+       
+        <td><h2>15 September 2020</h2></td>
+    </tr>
+</thead>
+
+
+<tbody>
+<tr>
+<td height="80" colspan="2" class="tbody1" > 
+   
+        Pay to: 
+        <br>
+        Acme Billing Co.
+        <br>
+        123 Main St.
+        <br>
+        Cityville, NA 12345
+    
+</td>
+
+<td colspan="2" class="tbody1">
+
+    Customer: <br>
+    John Smith <br> 321 Willo Way <br>Southeast Northwerstershire, MA 54321
+
+
+</td>
+
+
+</tr>
+<tr class="tbody2">
+    <td  class="subt" >
+        Name / Description <br> Paperclips <br> Starples <span>(box)</span> 
+    </td>
+    <td class="subt">
+        Qty. <br> 2000 <br> 200 
+    </td>
+    <td class="subt">
+        @ <br> 0.02 <br> 2.00
+    </td>
+    <td class="subt">
+        Cost <br> 20.00 <br> 200.00
+    </td>
+    
+    </tr>
+    <tr >
+        <td colspan="3" class="sub"> <h2>Subtotal</h2></td>
+        
+        <td class="sub"><h2>220.00</h2></td>
+        
+        </tr>
+        <tr >
+            <td colspan="2" class="sub">Tax</td>
+           
+            <td class="sub">9%</td>
+            <td class="sub">19.80</td>
+            
+            </tr>
+</tbody>
+
+<tfoot >
+    <tr>
+        <td colspan="3" class="foot"><h2>Grand Total</h2></td>
+       
+        <td class="foot"><h2>239.80</h2></td>
+    </tr>
+</tfoot>
+
+ </table>
+</body>
+</html>
