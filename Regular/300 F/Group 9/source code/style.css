@@ -1,0 +1,23 @@
+table {
+    margin:auto;
+    width: 70%;
+    height: 40%;
+    margin-bottom: 20px; 
+    border: 2px solid black;
+    border-radius:5px;
+    color: black;
+    background-color:rgb(7, 179, 127);
+   
+    text-align: center;
+    font-weight: bold;
+}
+tr{
+    margin-right: 20px;
+    border-radius:5px;
+    padding:10px;
+    background-color:rgb(7, 179, 127);
+    align-self:center;
+    font-size: 15px;
+    
+}
+
