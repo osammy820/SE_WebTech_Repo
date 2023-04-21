@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 1rem;
+} 
+table {
+  border: solid 1px;
+  border-collapse: collapse;
+  padding: 0;
+  height: 40%;
+  width: 70%;
+  font-weight: 500;
+  font-size: 16px;
+}
+tr:nth-of-type(1) {
+  background-color: gray;
+  color: #fff;
+  border: none;
+}
+th{
+  border: none;
+}
+tr:nth-of-type(2), tr:nth-of-type(4){
+  background-color: lightblue;
+}
+tr:nth-of-type(3){
+  background-color: #d3d3d3;
+}
+ tr:last-of-type{
+  background-color: lightblue;
+}
+tr:last-of-type td{
+  text-align: center;
+}
+td,th{
+  border: 0;
+  padding: 0;
+  text-align: center;
+}
+</style>
+
+<body>
+    
+  <table> 
+    <tbody>
+        <tr> 
+            <th>
+                Column 1
+            </th>
+            <th> Column 2 </th>
+            <th> Column 3 </th>
+        </tr>
+        <tr>
+          <td> Row 1, Column 1 </td>
+          <td> Row 1, Column 2</td>
+          <td> Row 1, Column 3</td>
+        </tr>
+        <tr>
+          <td colspan="2"> Row 2, Column 1-2</td>
+          <td> Row 2, Column 3 </td>
+        </tr>
+        <tr> 
+          <td> Row 3, Column 1</td>
+          <td> Row 3, Column 2</td>
+          <td> Row 3, Column 3</td>
+        </tr>
+        <tr>
+          <td colspan=" 3"> Table Footer </td>
+        </tr>
+    </tbody>
+  </table> 
+  
+  <a href="../ScreenShoot/Table.png" title="ScreenShoot"> Click to go to table</a>
+</body>
+</html>
