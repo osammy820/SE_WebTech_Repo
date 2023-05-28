@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EVENING GROUP 4</title>
+  </head>
+  <body>
+    <table width="100%" border="1">
+        <thead>
+            <tr>
+                <th colspan="4">Group List</th>
+            </tr>
+            <tr>
+                <th>4221450001</th>
+                <td> OWUSU ANSAH DERRICK</td>
+                <td>owusunana123@hmail.com</td>
+                <td>0554629071</td>
+            </tr>
+          <tr>
+                <th>4211450003</th>
+                <td> IBRAHIM COMPOARE  </td>
+                <td>icompoare111@gmail.com </td>
+                <td> 0249082416</td>
+            </tr>
+ <tr>
+                <th>5201450011</th>
+                <td>RANDOLF BOAMPONG  </td>
+                <td>orandolf2@gmail.com</td>
+                <td> 0540836948</td>
+            </tr>
+ <tr>
+                <th>5201450028 </th>
+                <td>DANIEL DWOMOH  </td>
+                <td>Oheneba.dd100@gmail.com</td>
+                <td> 0241951516</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+  </body>
+</html>  
